@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+</head>
+<body>
+        <input type="text" id="result">
+
+        <br>
+        <button class="button" onclick="Number_(7)">7</button>
+        <button class="button" onclick="Number_(8)">8</button>
+        <button class="button" onclick="Number_(9)">9</button>
+        <button class="button" onclick="clearInput()">C</button>
+        
+        <br>
+        <button class="button" onclick="Number_(4)">4</button>
+        <button class="button" onclick="Number_(5)">5</button>
+        <button class="button" onclick="Number_(6)">6</button>
+        <button class="button" onclick="add()">+</button>
+        
+        <br>
+        <button class="button" onclick="Number_(1)">1</button>
+        <button class="button" onclick="Number_(2)">2</button>
+        <button class="button" onclick="Number_(3)">3</button>
+        <button class="button" onclick="minus()">-</button>
+
+        <br>
+        <button class="button" onclick="appendNumber(0)">0</button>
+        <button class="button" onclick="multiply()">*</button>
+        <button class="button" onclick="divide()">/</button>
+        <button class="button" onclick="calculate()">=</button>
+    
+        <script src="calculator.js"></script>
+</body>
+    
+</html>
+
